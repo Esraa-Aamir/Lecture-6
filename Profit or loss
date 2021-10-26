@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int purchase, x, sale;
+	cout << " Enter the purchase price " << endl;
+	cin >> purchase;
+	cout << "Enter the sale price" << endl;
+	cin >> sale;
+	x = sale - purchase;
+	if (x > 0)
+	{
+		cout << "You have a profit of " << x << endl;
+	}
+
+	else if (x < 0)
+	{
+
+
+		cout << "You had a loss of" << x << endl;
+	}
+	else if (x == 0)
+	{
+		cout << "No loss or no profit" << endl;
+	}
+	else
+	{
+		cout << "You entered an incorrect value" << endl;
+	}
+
+	return 0;
+
+}
