@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int side;
+    cout << "Enter the sides number to see the shapes name (min 3 sides, max 10)" << endl;
+    cin >> side;
+    switch (side)
+    {
+    case 3:
+    {
+        cout << "Triangle got three sides" << endl;
+        break;
+    }
+    case 4:
+    {
+        cout << "Square has 4 sides" << endl;
+        break;
+    }
+    case 5:
+    {
+        cout << "Pentagon has 5 sides " << endl;
+        break;
+    }
+    case 6:
+    {
+        cout << "Hexagon has 6 sides " << endl;
+        break;
+    }
+    case 7:
+    {
+        cout << "Heptagon has 7 sides" << endl;
+        break;
+    }
+    case 8:
+    { cout << "Octagon has 8 sides " << endl;
+    break;
+
+    }
+    case 9:
+    {
+        cout << "Nonagon has 9 sides" << endl;
+        break;
+    }
+    case 10:
+    {
+        cout << "Decagon has 10 sides" << endl;
+    }
+    default:
+    {
+        cout << "You've entered an incorrect value" << endl;
+        break;
+    }
+    }
+    return 0;
+    }
