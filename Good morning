@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+	int currentTime = 3;
+	
+	if (currentTime < 12)
+
+	{
+		cout << "Good Morning " << endl;
+		cout << "It is AM " << endl;
+
+	}
+
+	else if (currentTime >= 12 && currentTime < 18)
+
+	{
+		cout << "Good Afternoon" << endl;
+		cout << "It is PM " << endl;
+
+
+	}
+	else if (currentTime >= 18 && currentTime < 21)
+	{
+		cout << "Good Evening " << endl;
+		cout << " It is PM " << endl;
+	}
+	else if (currentTime >= 21 && currentTime < 24 )
+	{
+		cout << " Good Night " << endl;
+		cout << " It is PM " << endl;
+	}
+	else
+
+	{
+		cout << "Time is not valid " << endl;
+	}
+
+	return 0;
+}
